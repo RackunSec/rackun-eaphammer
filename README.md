@@ -9,6 +9,7 @@ cd rackunsec-eaphammer
 python3 -m pip install -r requirements.txt
 python3 debian-setup.py
 ```
+![Debian-Setup.py Screenshot](docs/img/debian-setup.png)
 ## Run EAPHammer
 Once completed, you can run EAPHammer from the directory:
 ```bash
@@ -16,7 +17,7 @@ python3 eaphammer --cert-wizard
 python3 eaphammer (args)
 ```
 ---
-![logo](https://rawcdn.githack.com/s0lst1c3/eaphammer/ab8202de4a298957a2bc5662f986cdfb195490e4/docs/img/logo.png)
+![logo](docs/img/logo.png)
 
 by Gabriel Ryan ([s0lst1c3](https://twitter.com/s0lst1c3))(gabriel[at]solstice|d0t|sh)
 
