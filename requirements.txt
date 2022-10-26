@@ -11,7 +11,7 @@ pywebcopy
 jinja2
 flask-cors
 flask-socketio
-git
+GitPython
 sty
 urllib3
 rich
