@@ -246,7 +246,7 @@ def interactive():
 
 def rebuild_dh_file(length):
 
-    openssl_bin = settings.dict['paths']['openssl']['bin']
+    openssl_bin = "/usr/bin/openssl" ## Use the current openssl version
     dh_file = settings.dict['paths']['certs']['dh']
 
     length = length
