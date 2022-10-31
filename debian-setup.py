@@ -224,7 +224,10 @@ if __name__ == '__main__':
     print("\n *** EAPHammer Setup Script - 2022 *** \a\n")
     eaphammer=EapHammer()
     eaphammer.exit_if_not_root()
-    if eaphammer.confirm():
+    if "-y" not in sys.argv:
+        if eaphammer.confirm():
+            eaphammer.install_all()
+    else:
         eaphammer.install_all()
 
 
